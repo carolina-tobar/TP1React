@@ -1,0 +1,10 @@
+.container {
+  background-color: hsl(180, 25%, 50%);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 3em 3em;
+  grid-template-areas: ". . ." ". . ." ". . .";
+  padding: 3rem;
+}
